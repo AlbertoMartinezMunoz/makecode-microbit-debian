@@ -1,11 +1,10 @@
 #!/bin/sh
 
 # Install Node.js:
-# curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 sudo apt-get install -y nodejs npm
 
 # Install some dependencies:
-sudo apt-get install git libsecret-1-dev
+sudo apt-get install -y git libsecret-1-dev
 sudo npm install -g jake
 sudo npm install -g typings
 sudo npm install -g pxt
