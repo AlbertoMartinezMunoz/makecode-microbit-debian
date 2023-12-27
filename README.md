@@ -10,7 +10,7 @@ sudo apt-get install -y nodejs npm
 Run it with:
 
 ```console
-sh install-makecode.sh
+sh debian-install-makecode-microbit.sh
 ```
 
 This should take quite a while to finish.
